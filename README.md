@@ -1,1 +1,1 @@
-# inter-process-comms
+# Inter-Process Communication
