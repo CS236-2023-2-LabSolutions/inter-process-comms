@@ -52,13 +52,6 @@ int main(int argc, char *argv[])
 	}
 	fclose(fp);
 
-    /* send user message to server */
-    // printf("Sending data...\n");
-    // n = sendto(sockfd, buffer, strlen(buffer), 0, (struct sockaddr *)&serv_addr, sizeof(serv_addr));
-
-    // if (n < 0) 
-    //      error("ERROR writing to socket");
-
     close(sockfd);
     return 0;
 }
